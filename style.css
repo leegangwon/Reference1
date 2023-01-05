@@ -17,8 +17,11 @@
 }
 
 .tb-body>tr>td{
-    border: 1px solid #000;
+    border: 1px solid rgb(100, 10, 100);
 
+}
+.tb-foot>tr>td{
+    border: 1px solid #000;
 }
 
 p{

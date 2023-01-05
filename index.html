@@ -15,6 +15,7 @@
 <h1>My First Heading</h1>
 
 <p class="color-primary"><strong>My First</strong>Paragraph</p>
+<br><br>
 <p class="color-primary">My First Paragraph</p>
 <p class="color-primary font-50" >My First Paragraph</p>
 
@@ -41,17 +42,28 @@
     <thead class="tb-head">
        <tr>
         <td>이름</td>
-        <td>지역</td>
+        <td >지역</td>
         <td>전화번호</td>
        </tr>       
     </thead>
    <tbody class="tb-body">
     <tr>
         <td>홍길동</td>
-        <td>대전</td>
+        <td rowspan="2">대전</td>
         <td>010-111-1111</td>
     </tr>
+    <tr>
+        <td>일지매</td>
+        
+        <td>010-222-2222</td>
+    </tr>
    </tbody>
+   <tfoot class="tb-foot">
+    <tr>
+        <td colspan="3">하하하</td>
+        
+    </tr>
+   </tfoot>
 
 </table>
 
@@ -61,7 +73,8 @@
 <button type="button" onclick="javascript:alert('clickbutton!!');">Click</button>
 <img 
     width="400px"
-    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"/>
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpngGRjYX1ca7qAADU3K6eGLj7ShQE3L2otdzfryl_Y9Ht2QRoQKYQbsXd36XIxMbYOw0&usqp=CAU"
+    alt="html이미지" title="html이미지"/>
 
 
 </body>
